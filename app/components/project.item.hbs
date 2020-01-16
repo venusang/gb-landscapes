@@ -1,0 +1,12 @@
+<div class="project-item item-shadow {{@item.category}}">
+    <img alt="{{@item.title}}" class="img-responsive" src="{{rootURL}}assets/images/projects/{{@item.imgSrc}}">
+    <div class="project-hover">
+    <div class="project-hover-content">
+        <h3 class="project-title">{{@item.title}}</h3>
+        <p class="project-description">{{@item.description}}</p>
+    </div>
+    </div>
+    <LinkTo @route='project/{{@item.id}}' @class="link-arrow" >
+       See project <i class="icon ion-ios-arrow-right"></i>
+    </LinkTo>
+</div>
