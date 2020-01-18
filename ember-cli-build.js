@@ -1,26 +1,49 @@
-'use strict';
+"use strict";
 
-const EmberApp = require('ember-cli/lib/broccoli/ember-app');
+const EmberApp = require("ember-cli/lib/broccoli/ember-app");
 
-module.exports = function (defaults) {
+module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     fingerprint: {
       enabled: false
     }
   });
+  app.import("vendor/jquery.min.js", {
+    type: "vendor",
+    prepend: true
+  });
+  app.import("vendor/animsition.js");
+  // app.import("vendor/animsition.min.js");
+  app.import("vendor/bootstrap.min.js");
+  app.import("vendor/smoothscroll.js");
+  app.import("vendor/jquery.validate.min.js");
+  app.import("vendor/wow.min.js");
+  app.import("vendor/jquery.stellar.min.js");
+  app.import("vendor/jquery.magnific-popup.min.js");
+  app.import("vendor/owl.carousel.min.js");
+  app.import("vendor/isotope.pkgd.min.js");
+  app.import("vendor/imagesloaded.pkgd.min.js");
+  app.import("vendor/plugins.js");
+  app.import("vendor/sly.min.js");
 
-  // Use `app.import` to add additional libraries to the generated
-  // output files.
-  //
-  // If you need to use different assets in different
-  // environments, specify an object as the first parameter. That
-  // object's keys should be the environment name and the values
-  // should be the asset to use in that environment.
-  //
-  // If the library that you are including contains AMD or ES6
-  // modules that you would like to import into your application
-  // please specify an object with the list of modules as keys
-  // along with the exports of each module as its value.
+  // Slider revolution
+  app.import("vendor/rev-slider/jquery.themepunch.tools.min.js");
+  app.import("vendor/rev-slider/jquery.themepunch.revolution.min.js");
+
+  // Slider revolution 5x Extensions
+  app.import("vendor/rev-slider/revolution.extension.actions.min.js");
+  app.import("vendor/rev-slider/revolution.extension.carousel.min.js");
+  app.import("vendor/rev-slider/revolution.extension.kenburn.min.js");
+  app.import("vendor/rev-slider/revolution.extension.layeranimation.min.js");
+  app.import("vendor/rev-slider/revolution.extension.migration.min.js");
+  app.import("vendor/rev-slider/revolution.extension.navigation.min.js");
+  app.import("vendor/rev-slider/revolution.extension.parallax.min.js");
+  app.import("vendor/rev-slider/revolution.extension.slideanims.min.js");
+  app.import("vendor/rev-slider/revolution.extension.video.min.js");
+
+  // Scripts
+  app.import("vendor/scripts.js");
+  app.import("vendor/rev-slider-init.js");
 
   return app.toTree();
 };

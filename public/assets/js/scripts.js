@@ -1,15 +1,41 @@
+$(document).ready(function() {
+  console.log('document is ready');
+
+  	$(".animsition").animsition({
+  	   inClass: 'fade-in',
+       outClass: 'fade-out',
+  	   inDuration: 1000,
+  	   outDuration: 700,
+  	   linkElement: '.menu-list a',
+  	   // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+  	   loading:true,
+  	   loadingParentElement: 'body', //animsition wrapper element
+  	   loadingClass: 'spinner',
+  	   loadingInner: '<div class="double-bounce1"></div><div class="double-bounce2"></div>', // e.g '<img src="loading.svg" />'
+  	   timeout: false,
+  	   timeoutCountdown:5000,
+  	   onLoadEvent: true,
+  	   browser: [ 'animation-duration', '-webkit-animation-duration'],
+  	   // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+  	   // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+  	   overlay : false,
+  	   overlayClass : 'animsition-overlay-slide',
+  	   overlayParentElement : 'body',
+  	   transition: function(url){ window.location.href = url; }
+  	});
+});
 ﻿( function($) {
   'use strict';
 
 
 
   	/*-------------------------------------------------------------------------------
-	  Detect mobile device 
+	  Detect mobile device
 	-------------------------------------------------------------------------------*/
 
 
-	
-	var mobileDevice = false; 
+
+	var mobileDevice = false;
 
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 	  	$('html').addClass('mobile');
@@ -32,11 +58,11 @@
 	$(window).on('load', function(){
 
 		var wow = new WOW({
-		    offset: 150,          
+		    offset: 150,
 		    mobile: false
 		  }
 		);
-		
+
 		wow.init();
 	});
 
@@ -60,6 +86,7 @@
 	   loading:true,
 	   loadingParentElement: 'body', //animsition wrapper element
 	   loadingClass: 'spinner',
+     unSupportCss: [],
 	   loadingInner: '<div class="double-bounce1"></div><div class="double-bounce2"></div>', // e.g '<img src="loading.svg" />'
 	   timeout: false,
 	   timeoutCountdown:5000,
@@ -76,7 +103,7 @@
 
 
 	/*-------------------------------------------------------------------------------
-	  Navbar 
+	  Navbar
 	-------------------------------------------------------------------------------*/
 
 
@@ -96,7 +123,7 @@
 
 	navbar.on('affixed-top.bs.affix', function() {
 	  	navbar.removeClass('animated slideInDown');
-	  	
+
 	});
 
 	$('.nav-mobile-list li a[href="#"]').on('click',function(){
@@ -150,7 +177,7 @@
     });
 
 
-    
+
     /*-------------------------------------------------------------------------------
 	  Parallax
 	-------------------------------------------------------------------------------*/
@@ -175,8 +202,8 @@
 
 	function columnGrid(){
 	  $('.js-grid-items').each(function(){
-		  var colWrap =$(this).width(); 
-		  var colItem = Math.floor(colWrap / 390); 
+		  var colWrap =$(this).width();
+		  var colItem = Math.floor(colWrap / 390);
 		  var colFixedItem = Math.floor(colWrap / colItem);
 		  $(this).find('.js-grid-item').css({ 'width' : colWrap});
 		  $(this).find('.js-grid-item').css({ 'width' : colFixedItem});
@@ -242,7 +269,7 @@
 		    itemsDesktop : [1199,1],
 		    itemsDesktopSmall : [980,1],
 		    itemsTablet: [768,1],
-		    itemsMobile : [479,1], 
+		    itemsMobile : [479,1],
 		    pagination:true,
 		 	autoHeight : true
 
@@ -313,7 +340,7 @@
 		-------------------------------------------------------------------------------*/
 
 
-		  
+
 	   $('.partner-carousel').owlCarousel({
 		    margin:30,
 		    smartSpeed:250,
@@ -354,7 +381,7 @@
 		        },
 		        720:{
 		            items:2,
-		            
+
 		        },
 		        1280:{
 		            items:3
@@ -369,7 +396,7 @@
 		        },
 		        720:{
 		            items:1,
-		            
+
 		        },
 		        1280:{
 		            items:1
@@ -391,19 +418,19 @@
 
 
 
-	 var $container=$('.js-isotope').each(function() {		
+	 var $container=$('.js-isotope').each(function() {
 		var $container = $(this);
 		$container.imagesLoaded( function(){
-			$container.isotope({		 
+			$container.isotope({
 				itemSelector: '.js-isotope-item',
 				percentPosition: true,
-				layoutMode: 'masonry',	
+				layoutMode: 'masonry',
 				masonry: {
 				  columnWidth: '.js-isotope-item'
-				}	
-			});	
+				}
+			});
 		});
-    }); 
+    });
 
 
 
@@ -471,7 +498,7 @@
 
 
    /*-------------------------------------------------------------------------------
-	  Filter Carousel 
+	  Filter Carousel
 	-------------------------------------------------------------------------------*/
 
 
@@ -492,7 +519,7 @@
 
 
 	/*-------------------------------------------------------------------------------
-	  Full screen sections 
+	  Full screen sections
 	-------------------------------------------------------------------------------*/
 
 
@@ -515,15 +542,15 @@
 	            	$('.copy-bottom').addClass('white');
 		            $('.lang-bottom').addClass('white');
 	            }
-	            
-	            
+
+
   			}
 		});
 
 
 
 		/*-------------------------------------------------------------------------------
-		   Scroll into sections 
+		   Scroll into sections
 		/-------------------------------------------------------------------------------*/
 
 
@@ -555,7 +582,7 @@
 		$('.pp-nav-down').on('click', function(){
 			$.fn.pagepiling.moveSectionDown();
 		});
-    } 
+    }
 
 
 

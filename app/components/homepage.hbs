@@ -1,16 +1,10 @@
-<div class="animsition">
-  <div class="wrapper boxed">
-    <div class="click-capture"></div>
-    <SidebarMenu />
-    <Header />
     <Request @class='hidden-lg'/>
-    <HomepageJumbotron @slides={{@model}}/>
+    <HomepageSlideshow @slides={{@model}}/>
     <br />
-    <p align="center"><a class="btn" href="/projects">VIEW OUR  PROJECTS</a></p>
+    <p align="center">
+      <a href="/projects" class="btn">VIEW OUR PROJECTS</a>
+    </p>
     <div class="content">
       <HomepageAbout />
       <HomepageProjects @projects={{@model}}/>
     </div>
-    <Footer />
-  </div>
-</div>

@@ -1,4 +1,3 @@
-<!-- Section Projects -->
 <section class="section-projects section">
   <div class="container">
     <div class="row">
@@ -8,7 +7,7 @@
       </div>
       <div class="col-lg-7">
         <div class="filter-content">
-          <ul class="filter-carousel filter pull-lg-right js-filter-carousel">
+          <ul {{filtercarousel}} class="filter-carousel filter pull-lg-right js-filter-carousel">
             <li class="active"><a href="#" class="all" data-filter="*">All</a></li>
             <li><a href="#" data-filter=".commercial">Commercial </a></li>
             <li><a href="#" data-filter=".residential">Residential </a></li>
@@ -20,11 +19,13 @@
     </div>
   </div>
 
-  <div class="project-carousel owl-carousel">
+  <div {{owlcarousel}} class="project-carousel owl-carousel">
     {{#each @projects as |project|}}
     <GridItem @project={{project}} />
     {{/each}}
   </div>
 
-  <p align="center"><a class="btn" href="/projects">VIEW ALL OF OUR PROJECTS</a></p>
+  <p align="center">
+    <a href="/projects" class="btn">VIEW OUR PROJECTS</a>
+  </p>
 </section>

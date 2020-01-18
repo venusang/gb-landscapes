@@ -1,0 +1,39 @@
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="breadcrumbs"><a href="/">home</a> > our projects</div>
+      <h1>We Create Luxurious Landscapes</h1>
+    </div>
+
+    <div class="row">
+      <div class="filter-content-2">
+        <ul {{filter}} class="filter js-filter">
+          <li class="active"><a href="#" class="all" data-filter="*">All</a></li>
+          <li><a href="#" data-filter=".commercial">Commercial </a></li>
+          <li><a href="#" data-filter=".residential">Residential </a></li>
+          <li><a href="#" data-filter=".municipalities">Municipalities </a></li>
+        </ul>
+      </div>
+      <div {{grid}} class="grid-items js-isotope js-grid-items">
+        {{#each @model as |project|}}
+
+          <div class="grid-item {{project.category}} js-isotope-item js-grid-item">
+            <a href="/project-detail">
+              <div class="project-item item-shadow">
+                  <img alt="{{project.title}}" class="img-responsive" src="{{rootURL}}assets/images/projects/{{project.img426x574}}" />
+
+                <div class="project-hover">
+                  <div class="project-hover-content">
+                    <h3 class="project-title">{{project.title}}</h3>
+                    <p class="project-description">{{project.description}}</p>
+                  </div>
+                </div>
+                <a href="/project-detail" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+              </div>
+            </a>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
