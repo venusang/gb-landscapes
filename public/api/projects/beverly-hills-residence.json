@@ -1,0 +1,14 @@
+{
+  "data": {
+    "type": "projects",
+    "id": "beverly-hills-residence",
+    "attributes": {
+      "img1920x1080": "1920x1080-beverly-hills.jpg",
+      "img426x574": "426x574-beverly-hills.jpg",
+      "category": "residential",
+      "title": "Beverly Hills Residence",
+      "description": "A residential project in Beverly Hills, CA",
+      "location": "Beverly Hills, CA"
+    }
+  }
+}

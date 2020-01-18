@@ -1,0 +1,14 @@
+{
+  "data": {
+    "type": "projects",
+    "id": "mccadden-apartments",
+    "attributes": {
+      "img1920x1080": "1920x1080-mccadden.jpg",
+      "img426x574": "426x574-mccadden.jpg",
+      "category": "residential",
+      "title": "McCadden Apartments",
+      "description": "Concrete paver and irrigation install",
+      "location": "Hollywood, CA"
+    }
+  }
+}

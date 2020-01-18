@@ -1,0 +1,14 @@
+{
+  "data": {
+    "type": "projects",
+    "id": "heidman-elementary-school",
+    "attributes": {
+      "img1920x1080": "1920x1080-heidman-es.jpg",
+      "img426x574": "426x574-heidman.jpg",
+      "category": "commercial",
+      "title": "Heidman Elementary School",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...",
+      "location": "Tustin, CA"
+    }
+  }
+}

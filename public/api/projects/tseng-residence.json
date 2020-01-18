@@ -1,0 +1,14 @@
+{
+  "data": {
+    "type": "projects",
+    "id": "tseng-residence",
+    "attributes": {
+      "img1920x1080": "1920x1080-tseng.jpg",
+      "img426x574": "426x574-tseng.jpg",
+      "category": "residential",
+      "title": "Tseng Residence",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...",
+      "location": "Some City, CA"
+    }
+  }
+}
