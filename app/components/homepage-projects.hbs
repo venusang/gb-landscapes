@@ -1,9 +1,9 @@
 <!-- Section Projects -->
-
 <section class="section-projects section">
   <div class="container">
     <div class="row">
       <div class="col-lg-5">
+        <strong class="section-subtitle"><a href="/projects">our projects</a></strong>
         <h2 class="section-title">Latest Projects</h2>
       </div>
       <div class="col-lg-7">
@@ -14,14 +14,17 @@
             <li><a href="#" data-filter=".residential">Residential </a></li>
             <li><a href="#" data-filter=".municipalities">Municipalities </a></li>
           </ul>
-          <a href="" class="view-projects">View All Projects</a>
+          <a href="/projects" class="view-projects">View All Projects</a>
         </div>
       </div>
     </div>
   </div>
+
   <div class="project-carousel owl-carousel">
-    {{#each @items as |item|}}
-    <GridItem @item={{item}} />
+    {{#each @projects as |project|}}
+    <GridItem @project={{project}} />
     {{/each}}
   </div>
+
+  <p align="center"><a class="btn" href="/projects">VIEW ALL OF OUR PROJECTS</a></p>
 </section>

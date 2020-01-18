@@ -1,0 +1,100 @@
+{
+  "data": [
+    {
+      "type": "projects",
+      "id": "frontier-park",
+      "attributes": {
+        "img1920x1080": "1920x1080-frontier-park.jpg",
+        "img426x574": "426x574-frontier-park.jpg",
+        "category": "municipalities",
+        "title": "Frontier Park",
+        "description": "Park design and beautification",
+        "location": "Tustin, CA"
+      }
+    },
+    {
+      "type": "projects",
+      "id": "deputy-ken-collier-park",
+      "attributes": {
+        "img1920x1080": "1920x1080-deputy-ken-collier-park.jpg",
+        "img426x574": "426x574-deputy-ken-collier-park.jpg",
+        "category": "municipalities",
+        "title": "Deputy Ken Collier Park",
+        "description": "Park design and beautification",
+        "location": "Santee, CA"
+      }
+    },
+    {
+      "type": "projects",
+      "id": "diseck-residence",
+      "attributes": {
+        "img1920x1080": "1920x1080-diseck.jpg",
+        "img426x574": "426x574-diseck.jpg",
+        "category": "residential",
+        "title": "Diseck Residence",
+        "description": "Residential design and beautification",
+        "location": "Some City, CA"
+      }
+    },
+    {
+      "type": "projects",
+      "id": "beverly-hills-residence",
+      "attributes": {
+        "img1920x1080": "1920x1080-beverly-hills.jpg",
+        "img426x574": "426x574-beverly-hills.jpg",
+        "category": "residential",
+        "title": "Beverly Hills Residence",
+        "description": "A residential project in Beverly Hills, CA",
+        "location": "Beverly Hills, CA"
+      }
+    },
+    {
+      "type": "projects",
+      "id": "whittier-residence",
+      "attributes": {
+        "img1920x1080": "1920x1080-whittier.jpg",
+        "img426x574": "426x574-whittier.jpg",
+        "category": "residential",
+        "title": "Whittier Residence",
+        "description": "A residential project in Whittier, CA",
+        "location": "Whittier, CA"
+      }
+    },
+    {
+      "type": "projects",
+      "id": "heidman-elementary-school",
+      "attributes": {
+        "img1920x1080": "1920x1080-heidman-es.jpg",
+        "img426x574": "426x574-heidman.jpg",
+        "category": "commercial",
+        "title": "Heidman Elementary School",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...",
+        "location": "Tustin, CA"
+      }
+    },
+    {
+      "type": "projects",
+      "id": "tseng-residence",
+      "attributes": {
+        "img1920x1080": "1920x1080-tseng.jpg",
+        "img426x574": "426x574-tseng.jpg",
+        "category": "residential",
+        "title": "Tseng Residence",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...",
+        "location": "Some City, CA"
+      }
+    },
+    {
+      "type": "projects",
+      "id": "mccadden-apartments",
+      "attributes": {
+        "img1920x1080": "1920x1080-mccadden.jpg",
+        "img426x574": "426x574-mccadden.jpg",
+        "category": "residential",
+        "title": "McCadden Apartments",
+        "description": "Concrete paver and irrigation install",
+        "location": "Hollywood, CA"
+      }
+    }
+  ]
+}

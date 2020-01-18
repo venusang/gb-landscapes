@@ -3,16 +3,13 @@
     <div class="click-capture"></div>
     <SidebarMenu />
     <Header />
-    <p align="center" class="hidden-lg">
-      <h3 class="section-title">Contact Us</h3>
-      <address>
-        email: <span class="text-dark"><a href="mailto:gblandscapes@yahoo.com">gblandscapes@yahoo.com</a></span>
-      </address>
-    </p>
-    <HomepageJumbotron @slides={{@slides}} />
+    <Request @class='hidden-lg'/>
+    <HomepageJumbotron @slides={{@model}}/>
+    <br />
+    <p align="center"><a class="btn" href="/projects">VIEW OUR  PROJECTS</a></p>
     <div class="content">
       <HomepageAbout />
-      <HomepageProjects @items={{@items}} />
+      <HomepageProjects @projects={{@model}}/>
     </div>
     <Footer />
   </div>
