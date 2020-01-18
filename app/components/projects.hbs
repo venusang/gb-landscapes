@@ -19,7 +19,6 @@
         </div>
         <div {{grid}} class="grid-items js-isotope js-grid-items">
           {{#each @model as |project|}}
-
             <div class="grid-item {{project.category}} js-isotope-item js-grid-item">
               <a href="/project-detail">
                 <div class="project-item item-shadow">
@@ -31,7 +30,9 @@
                       <p class="project-description">{{project.description}}</p>
                     </div>
                   </div>
-                  <a href="/project-detail" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                  <LinkTo @route="project" @class="link-arrow" @model={{project}}>
+                    See project <i class="icon ion-ios-arrow-right"></i>
+                  </LinkTo>
                 </div>
               </a>
             </div>

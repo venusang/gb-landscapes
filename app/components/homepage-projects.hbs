@@ -21,7 +21,7 @@
     <div class="row">
       <div {{owlcarousel}} class="project-carousel owl-carousel">
         {{#each @projects as |project|}}
-        <GridItem @project={{project}} />
+        <Project @project={{project}} />
         {{/each}}
       </div>
     </div>

@@ -6,9 +6,9 @@ export default class ProjectsRoute extends Route {
     let { data } = await response.json();
 
     return data.map(model => {
-      let { attributes } = model;
+      let { id, attributes } = model;
 
-      return { ...attributes };
+      return { id, ...attributes };
     });
   }
 }
