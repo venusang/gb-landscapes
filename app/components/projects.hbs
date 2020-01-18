@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <div class="breadcrumbs"><a href="/">home</a> > our projects</div>
+        <div class="breadcrumbs"><LinkTo @route="index">home</LinkTo> > our projects</div>
         <h1>We Create Luxurious Landscapes</h1>
       </div>
     </div>
@@ -20,7 +20,7 @@
         <div {{grid}} class="grid-items js-isotope js-grid-items">
           {{#each @model as |project|}}
             <div class="grid-item {{project.category}} js-isotope-item js-grid-item">
-              <a href="/project-detail">
+              <LinkTo @route="project" @class="link-arrow" @model={{project}}>
                 <div class="project-item item-shadow">
                     <img alt="{{project.title}}" class="img-responsive" src="{{rootURL}}assets/images/projects/{{project.img426x574}}" />
 
@@ -34,7 +34,7 @@
                     See project <i class="icon ion-ios-arrow-right"></i>
                   </LinkTo>
                 </div>
-              </a>
+              </LinkTo>
             </div>
           {{/each}}
         </div>
