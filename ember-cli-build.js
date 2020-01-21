@@ -5,7 +5,8 @@ const EmberApp = require("ember-cli/lib/broccoli/ember-app");
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     fingerprint: {
-      enabled: false
+      // enabled: false
+      prepend: "https://gb-landscape-design.herokuapp.com/"
     }
   });
   app.import("vendor/jquery.min.js", {

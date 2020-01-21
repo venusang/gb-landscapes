@@ -1140,9 +1140,10 @@ a.brand:focus {
 }
 
 /* 3.3 Section About */
-
-.section-about {
-  padding: 8rem 0 0;
+@media (max-device-width: 480px) {
+  .view-our-projects {
+    padding-top: 8rem;
+  }
 }
 
 .section-about-title {

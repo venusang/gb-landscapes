@@ -2,31 +2,44 @@
 <div class="projects projects-sly-carousel">
   <div {{slycarousel}} class="sly">
     <ul class="slidee">
-      <li>
+      {{!-- {{#each @projects as |project|}} --}}
+      {{!-- <li>
         <div class="project-item item-shadow">
-          <img alt="" class="img-responsive" src="{{rootURL}}assets/images/projects/1-370x370.jpg">
+          <img alt="" class="img-responsive" src="/{{rootURL}}assets/images/projects/{{project.img426x574}}">
           <div class="project-hover">
             <div class="project-hover-content">
-              <h3 class="project-title">Triangle<br>Concrete House<br>On Lake</h3>
+              <h3 class="project-title">{{project.title}}</h3>
             </div>
           </div>
           <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
         </div>
       </li>
-      <li>
-        <div class="project-item item-shadow">
-          <img alt="" class="img-responsive" src="{{rootURL}}assets/images/projects/2-370x370.jpg">
-          <div class="project-hover">
-            <div class="project-hover-content">
-              <h3 class="project-title">Ocean<br>Museum<br>Italy</h3>
-            </div>
+{{/each}} --}}
+    <li>
+      <div class="project-item item-shadow">
+        <img alt="" class="img-responsive" src="/{{rootURL}}assets/images/projects/1-370x370.jpg">
+        <div class="project-hover">
+          <div class="project-hover-content">
+            <h3 class="project-title">Project Title</h3>
           </div>
-          <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
         </div>
-      </li>
+        <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+      </div>
+    </li>
+    <li>
+      <div class="project-item item-shadow">
+        <img alt="" class="img-responsive" src="/{{rootURL}}assets/images/projects/2-370x370.jpg">
+        <div class="project-hover">
+          <div class="project-hover-content">
+            <h3 class="project-title">Ocean<br>Museum<br>Italy</h3>
+          </div>
+        </div>
+        <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+      </div>
+    </li>
       <li>
         <div class="project-item item-shadow">
-          <img alt="" class="img-responsive" src="{{rootURL}}assets/images/projects/3-370x370.jpg">
+          <img alt="" class="img-responsive" src="/{{rootURL}}assets/images/projects/3-370x370.jpg">
           <div class="project-hover">
             <div class="project-hover-content">
               <h3 class="project-title">Milko<br>Co-Working<br>Building</h3>
@@ -37,7 +50,7 @@
       </li>
       <li>
         <div class="project-item item-shadow">
-          <img alt="" class="img-responsive" src="{{rootURL}}assets/images/projects/4-370x370.jpg">
+          <img alt="" class="img-responsive" src="/{{rootURL}}assets/images/projects/4-370x370.jpg">
           <div class="project-hover">
             <div class="project-hover-content">
               <h3 class="project-title">Redesign<br>Interior For<br>Villa</h3>
