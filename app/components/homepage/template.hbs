@@ -1,0 +1,10 @@
+<HomepageSlideshow @slides={{this.slides}}/>
+<br />
+<ViewProjects />
+<div class="content">
+  <HomepageAbout />
+  <div class="row">
+      <ViewProjects @class="view-our-projects"/>
+  </div>
+  <HomepageProjects @projects={{@model}}/>
+</div>

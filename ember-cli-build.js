@@ -5,7 +5,6 @@ const EmberApp = require("ember-cli/lib/broccoli/ember-app");
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     fingerprint: {
-      // enabled: false
       prepend: "https://gb-landscape-design.herokuapp.com/"
     }
   });
@@ -13,18 +12,12 @@ module.exports = function(defaults) {
     type: "vendor",
     prepend: true
   });
-  app.import("vendor/animsition.js");
-  // app.import("vendor/animsition.min.js");
+  app.import("vendor/animsition.min.js");
   app.import("vendor/bootstrap.min.js");
-  app.import("vendor/smoothscroll.js");
-  app.import("vendor/jquery.validate.min.js");
-  app.import("vendor/wow.min.js");
-  app.import("vendor/jquery.stellar.min.js");
-  app.import("vendor/jquery.magnific-popup.min.js");
+  app.import("vendor/smoothscroll.min.js");
   app.import("vendor/owl.carousel.min.js");
   app.import("vendor/isotope.pkgd.min.js");
   app.import("vendor/imagesloaded.pkgd.min.js");
-  app.import("vendor/plugins.js");
   app.import("vendor/sly.min.js");
 
   // Slider revolution
@@ -43,8 +36,7 @@ module.exports = function(defaults) {
   app.import("vendor/rev-slider/revolution.extension.video.min.js");
 
   // Scripts
-  app.import("vendor/scripts.js");
-  app.import("vendor/rev-slider-init.js");
+  app.import("vendor/scripts.min.js");
 
   return app.toTree();
 };

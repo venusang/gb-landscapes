@@ -1,5 +1,5 @@
 import { modifier } from "ember-modifier";
 
 export default modifier(function filter() {
-  window.loadFilterCarousel();
+  window.gbLandscape.loadFilterCarousel();
 });
