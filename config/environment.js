@@ -22,8 +22,10 @@ module.exports = function(environment) {
       // when it is created
     },
     contentSecurityPolicy: {
-      "connect-src": "'self' https://gb-landscape-design.herokuapp.com/",
-      "font-src": "'self' https://gb-landscape-design.herokuapp.com/"
+      // "connect-src": "'self' https://gb-landscape-design.herokuapp.com/",
+      // "font-src": "'self' https://gb-landscape-design.herokuapp.com/"
+      // "connect-src": "'self' https://gb-landscape-design.netlify.com/",
+      // "font-src": "'self' https://gb-landscape-design.netlify.com/"
     }
   };
 
