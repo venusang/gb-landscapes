@@ -8,6 +8,11 @@ module.exports = function(defaults) {
       prepend: "https://gb-landscape-design.netlify.com/"
     }
   });
+
+  app.import("vendor/netlify.toml", {
+    destDir: "/"
+  });
+
   app.import("vendor/jquery.min.js", {
     type: "vendor",
     prepend: true
