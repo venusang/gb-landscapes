@@ -14,7 +14,6 @@ module.exports = function(defaults) {
     type: "vendor",
     prepend: true
   });
-  app.import("vendor/animsition.min.js");
   app.import("vendor/bootstrap.min.js");
   app.import("vendor/smoothscroll.min.js");
   app.import("vendor/owl.carousel.min.js");
@@ -38,7 +37,8 @@ module.exports = function(defaults) {
   app.import("vendor/rev-slider/revolution.extension.video.min.js");
 
   // Scripts
-  app.import("vendor/scripts.min.js");
+  app.import("vendor/scripts.js");
+  // app.import("vendor/scripts.min.js");
 
   return app.toTree();
 };

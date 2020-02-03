@@ -1,26 +1,4 @@
 var gbLandscape = {
-  loadAnimsition: function (){
-    $(".animsition").animsition({
-       inClass: 'fade-in',
-       outClass: 'fade-out',
-       inDuration: 1000,
-       outDuration: 700,
-       loading:true,
-       loadingParentElement: 'body',
-       loadingClass: 'spinner',
-       loadingInner: 'loading...<div class="double-bounce1"></div><div class="double-bounce2"></div>',
-       // e.g '<img src="loading.svg" />'
-       timeout: false,
-       timeoutCountdown:5000,
-       onLoadEvent: true,
-       browser: [ 'animation-duration', '-webkit-animation-duration'],
-       overlay : false,
-       overlayClass : 'animsition-overlay-slide',
-       overlayParentElement : 'body',
-       transition: function(url){ window.location.href = url; }
-    });
-  },
-
   loadOwlCarousel: function () {
   	if ($('.owl-carousel').length > 0){
   	   $('.project-carousel').owlCarousel({
@@ -57,6 +35,7 @@ var gbLandscape = {
   },
 
   loadNavBar: function(){
+    console.log('loadNavBar');
     var navbar=$('.js-navbar:not(.navbar-fixed)');
 
     	navbar.affix({
@@ -83,10 +62,11 @@ var gbLandscape = {
     	});
 
     	$('.navbar-toggle').on('click',function(){
+        console.log('navbar-toggle');
     		$('body').removeClass('menu-is-closed').addClass('menu-is-opened');
     	});
 
-    	$('.close-menu, .click-capture').on('click', function(){
+    	$('.close-menu, .click-capture, .menu-list li a').on('click', function(){
     		$('body').removeClass('menu-is-opened').addClass('menu-is-closed');
     		$('.menu-list ul').slideUp(300);
     	});
