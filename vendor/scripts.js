@@ -180,7 +180,6 @@ var gbLandscape = {
           bullets: {
             enable: true,
             hide_onmobile: true,
-
             direction: "horizontal",
             container: 'layergrid',
             h_align: "right",
@@ -208,7 +207,7 @@ var gbLandscape = {
         gridheight:[800],
         lazyType:"none",
         shadow:0,
-        spinner: "spinner0",
+        spinner: "spinner5",
         stopLoop:"on",
         stopAfterLoops:0,
         shuffle:"on",
