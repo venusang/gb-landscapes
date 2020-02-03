@@ -35,7 +35,6 @@ var gbLandscape = {
   },
 
   loadNavBar: function(){
-    console.log('loadNavBar');
     var navbar=$('.js-navbar:not(.navbar-fixed)');
 
     	navbar.affix({
@@ -69,7 +68,9 @@ var gbLandscape = {
     	$('.close-menu, .click-capture, .menu-list li a').on('click', function(){
     		$('body').removeClass('menu-is-opened').addClass('menu-is-closed');
     		$('.menu-list ul').slideUp(300);
+        $(window).scrollTop(0);
     	});
+
 
     	var dropToggle =$('.menu-list > li').has('ul').children('a');
 
@@ -246,6 +247,8 @@ $(window).resize(function(){
 
 ﻿( function($) {
   'use strict';
+
+
 
 	var mobileDevice = false;
 

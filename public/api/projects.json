@@ -26,14 +26,14 @@
     },
     {
       "type": "projects",
-      "id": "diseck-residence",
+      "id": "hidden-hills-residence",
       "attributes": {
         "img1920x1080": "1920x1080-diseck.jpg",
         "img426x574": "426x574-diseck.jpg",
         "category": "residential",
-        "title": "Diseck Residence",
+        "title": "Hidden Hills Residence",
         "description": "Residential design and beautification",
-        "location": "Some City, CA"
+        "location": "Hidden Hills, CA"
       }
     },
     {

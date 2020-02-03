@@ -3485,7 +3485,7 @@ a.brand:focus {
   color: #000;
 }
 
-.footer ul .active a,
+.footer ul li a.active,
 .footer ul li a:hover {
   color: #cee002;
   text-decoration: none;
