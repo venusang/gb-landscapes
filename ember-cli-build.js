@@ -5,8 +5,8 @@ const EmberApp = require("ember-cli/lib/broccoli/ember-app");
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     fingerprint: {
-      // enabled: false
-      prepend: "https://gb-landscape-design.netlify.com/"
+      enabled: false
+      // prepend: "https://gb-landscape-design.netlify.com/"
     }
   });
 
