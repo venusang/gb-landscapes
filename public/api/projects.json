@@ -96,6 +96,8 @@
       "attributes": {
         "img1920x1080": "1920x1080-mccadden.jpg",
         "img426x574": "426x574-mccadden.jpg",
+        "img426x574x01": "426x574-mccadden-01.jpg",
+        "img426x574x02": "426x574-mccadden-02.jpg",
         "category": "residential",
         "title": "McCadden Apartments",
         "description": "Concrete paver and irrigation install",
