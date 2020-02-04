@@ -71,7 +71,6 @@ var gbLandscape = {
     	});
 
     	$('.navbar-toggle').on('click',function(){
-        console.log('navbar-toggle');
     		$('body').removeClass('menu-is-closed').addClass('menu-is-opened');
     	});
 
@@ -99,21 +98,6 @@ var gbLandscape = {
               return false;
           }
       });
-  },
-
-  loadCategoryFilter: function (){
-      // $('.js-filter .active').removeClass('active');
-      // $(this).closest('li').addClass('active');
-      var selector = $(this).attr('data-filter');
-      console.log('selector', selector);
-      $('.js-isotope').isotope({
-        filter: selector,
-        animationOptions: {
-          duration: 500,
-          queue: false
-        }
-      });
-      return false;
   },
 
   loadFilter: function (){
@@ -145,42 +129,6 @@ var gbLandscape = {
       }, 300);
       return false;
     });
-  },
-
-  loadSlyCarousel:function (){
-    	var $frame  = $('.sly');
-    		var $slidee = $frame.children('ul').eq(0);
-    		var $wrap   = $frame.parent();
-
-    		if ($frame.length > 0){
-    			$frame.sly({
-    				horizontal: 1,
-    				itemNav: 'basic',
-    				smart: 1,
-    				activateOn: 'click',
-    				mouseDragging: 1,
-    				touchDragging: 1,
-    				releaseSwing: 1,
-    				startAt: 0,
-    				scrollBar: $wrap.find('.scrollbar'),
-    				scrollBy: 0,
-    				activatePageOn: 'click',
-    				speed: 1000,
-    				elasticBounds: 2,
-    				dragHandle: 2,
-    				dynamicHandle: 1,
-    				clickBar: 0,
-
-    				// Buttons
-    				prevPage: $wrap.find('.prev'),
-    				nextPage: $wrap.find('.next')
-    			});
-
-    			$(window).resize(function(){
-    				$frame.sly('reload');
-    			});
-    		}
-
   },
 
   loadRevSlider: function (){
@@ -273,8 +221,6 @@ $(window).resize(function(){
 
 ﻿( function($) {
   'use strict';
-
-
 
 	var mobileDevice = false;
 

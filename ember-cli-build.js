@@ -6,7 +6,6 @@ module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     fingerprint: {
       enabled: false
-      // prepend: "https://gb-landscape-design.netlify.com/"
     }
   });
 
@@ -19,7 +18,6 @@ module.exports = function(defaults) {
   app.import("vendor/owl.carousel.min.js");
   app.import("vendor/isotope.pkgd.min.js");
   app.import("vendor/imagesloaded.pkgd.min.js");
-  app.import("vendor/sly.min.js");
 
   // Slider revolution
   app.import("vendor/rev-slider/jquery.themepunch.tools.min.js");
