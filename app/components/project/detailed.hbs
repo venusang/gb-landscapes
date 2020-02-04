@@ -11,6 +11,7 @@
       </div>
     </div>
 
+
     <div class="row-images row">
       <div class="col-image col-sm-12"><img src="/{{rootURL}}assets/images/projects/{{@project.img1920x1080}}"></div>
       {{#if @project.img426x574x01}}
@@ -25,11 +26,11 @@
       <div class="col-image col col-sm-6"><img src="/{{rootURL}}assets/images/projects/{{@project.img426x574}}"></div>
       {{/if}}
     </div>
+
     <Request />
-    <div class="row">
-      <div class="col-lg-12">
-        <ProjectsSlyCarousel {{slycarousel}} @projects = {{this.projectModel}} />
-      </div>
-    </div>
+    <div class="section-subtitle">View More Projects</div>
+    <ProjectsGallery {{filter}}
+      @class="projects-gallery" @galleryCategory="residential" @projects={{this.projectModel}}
+    />
   </div>
 </div>

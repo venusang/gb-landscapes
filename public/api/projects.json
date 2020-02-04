@@ -5,6 +5,7 @@
       "id": "frontier-park",
       "attributes": {
         "img1920x1080": "1920x1080-frontier-park.jpg",
+        "img200x200": "200x200-frontier-park.jpg",
         "img426x574": "426x574-frontier-park.jpg",
         "category": "municipalities",
         "title": "Frontier Park",
@@ -17,6 +18,7 @@
       "id": "deputy-ken-collier-park",
       "attributes": {
         "img1920x1080": "1920x1080-deputy-ken-collier-park.jpg",
+        "img200x200": "200x200-deputy-ken-collier-park.jpg",
         "img426x574": "426x574-deputy-ken-collier-park.jpg",
         "img426x574x01": "426x574-deputy-ken-collier-park-02.jpg",
         "img426x574x02": "426x574-deputy-ken-collier-park-02.jpg",
@@ -31,6 +33,7 @@
       "id": "hidden-hills-residence",
       "attributes": {
         "img1920x1080": "1920x1080-hidden-hills.jpg",
+        "img200x200": "200x200-hidden-hills.jpg",
         "img426x574": "426x574-hidden-hills.jpg",
         "img426x574x01": "426x574-hidden-hills-front-01.png",
         "img426x574x02": "426x574-hidden-hills-front-02.png",
@@ -45,6 +48,7 @@
       "id": "beverly-hills-residence",
       "attributes": {
         "img1920x1080": "1920x1080-beverly-hills-trees.jpg",
+        "img200x200": "200x200-beverly-hills.jpg",
         "img426x574": "426x574-beverly-hills.jpg",
         "img426x574x01": "426x574-beverly-hills-before.jpg",
         "img426x574x02": "426x574-beverly-hills-after.jpg",
@@ -59,6 +63,7 @@
       "id": "whittier-residence",
       "attributes": {
         "img1920x1080": "1920x1080-whittier.jpg",
+        "img200x200": "200x200-whittier.jpg",
         "img426x574": "426x574-whittier.jpg",
         "category": "residential",
         "title": "Whittier Residence",
@@ -71,6 +76,7 @@
       "id": "heidman-elementary-school",
       "attributes": {
         "img1920x1080": "1920x1080-heidman-es.jpg",
+        "img200x200": "200x200-heidman.jpg",
         "img426x574": "426x574-heidman.jpg",
         "category": "commercial",
         "title": "Heidman Elementary School",
@@ -83,6 +89,7 @@
       "id": "tseng-residence",
       "attributes": {
         "img1920x1080": "1920x1080-tseng.jpg",
+        "img200x200": "200x200-tseng.jpg",
         "img426x574": "426x574-tseng.jpg",
         "img426x574x01": "426x574-tseng-before.jpg",
         "img426x574x02": "426x574-tseng-after.jpg",
@@ -97,6 +104,7 @@
       "id": "mccadden-apartments",
       "attributes": {
         "img1920x1080": "1920x1080-mccadden.jpg",
+        "img200x200": "200x200-mccadden.jpg",
         "img426x574": "426x574-mccadden.jpg",
         "img426x574x01": "426x574-mccadden-01.jpg",
         "img426x574x02": "426x574-mccadden-02.jpg",

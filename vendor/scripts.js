@@ -34,6 +34,16 @@ var gbLandscape = {
     });
   },
 
+  projectsGalleryGrid: function (){
+      $('.projects-gallery .js-grid-items').each(function(){
+        var colWrap =$(this).width();
+        var colItem = Math.floor(colWrap / 200);
+        var colFixedItem = Math.floor(colWrap / colItem);
+        $(this).find('.js-grid-item').css({ 'width' : colWrap});
+        $(this).find('.js-grid-item').css({ 'width' : colFixedItem});
+      });
+  },
+
   loadNavBar: function(){
     var navbar=$('.js-navbar:not(.navbar-fixed)');
 
@@ -89,6 +99,21 @@ var gbLandscape = {
               return false;
           }
       });
+  },
+
+  loadCategoryFilter: function (){
+      // $('.js-filter .active').removeClass('active');
+      // $(this).closest('li').addClass('active');
+      var selector = $(this).attr('data-filter');
+      console.log('selector', selector);
+      $('.js-isotope').isotope({
+        filter: selector,
+        animationOptions: {
+          duration: 500,
+          queue: false
+        }
+      });
+      return false;
   },
 
   loadFilter: function (){
@@ -242,6 +267,7 @@ var gbLandscape = {
 
 $(window).resize(function(){
   window.gbLandscape.columnGrid();
+  window.gbLandscape.projectsGalleryGrid();
 });
 
 

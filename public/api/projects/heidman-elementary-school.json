@@ -3,7 +3,8 @@
     "type": "projects",
     "id": "heidman-elementary-school",
     "attributes": {
-      "img1920x1080": "1920x1080-heidman-es.jpg",
+      "img1920x1080": "1920x1080-heidman.jpg",
+      "img200x200": "200x200-heidman.jpg",
       "img426x574": "426x574-heidman.jpg",
       "category": "commercial",
       "title": "Heidman Elementary School",
