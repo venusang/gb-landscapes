@@ -28,8 +28,10 @@
       "type": "projects",
       "id": "hidden-hills-residence",
       "attributes": {
-        "img1920x1080": "1920x1080-diseck.jpg",
-        "img426x574": "426x574-diseck.jpg",
+        "img1920x1080": "1920x1080-hidden-hills.jpg",
+        "img426x574": "426x574-hidden-hills.jpg",
+        "img426x574x01": "426x574-hidden-hills-front-01.png",
+        "img426x574x02": "426x574-hidden-hills-front-02.png",
         "category": "residential",
         "title": "Hidden Hills Residence",
         "description": "Residential design and beautification",
@@ -40,8 +42,10 @@
       "type": "projects",
       "id": "beverly-hills-residence",
       "attributes": {
-        "img1920x1080": "1920x1080-beverly-hills.jpg",
+        "img1920x1080": "1920x1080-beverly-hills-trees.jpg",
         "img426x574": "426x574-beverly-hills.jpg",
+        "img426x574x01": "426x574-beverly-hills-before.jpg",
+        "img426x574x02": "426x574-beverly-hills-after.jpg",
         "category": "residential",
         "title": "Beverly Hills Residence",
         "description": "A residential project in Beverly Hills, CA",
@@ -78,6 +82,8 @@
       "attributes": {
         "img1920x1080": "1920x1080-tseng.jpg",
         "img426x574": "426x574-tseng.jpg",
+        "img426x574x01": "426x574-tseng-before.jpg",
+        "img426x574x02": "426x574-tseng-after.jpg",
         "category": "residential",
         "title": "Tseng Residence",
         "description": "Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...",
