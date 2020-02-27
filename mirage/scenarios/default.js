@@ -27,7 +27,6 @@ let jsonDB = {
     {
       type: "projects",
       id: "hidden-hills-residence",
-
       img1920x1080: "1920x1080-hidden-hills.jpg",
       img200x200: "200x200-hidden-hills.jpg",
       img426x574: "426x574-hidden-hills.jpg",
