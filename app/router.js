@@ -4,6 +4,7 @@ import config from "./config/environment";
 export default class Router extends EmberRouterScroll {
   location = config.locationType;
   rootURL = config.rootURL;
+  configTest = config;
 }
 
 Router.map(function() {
