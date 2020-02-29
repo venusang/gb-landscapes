@@ -79,8 +79,7 @@ export default [
     thumbnailLarge: "426x574-heidman.jpg",
     category: "commercial",
     title: "Heidman Elementary School",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...",
+    description: "A public school project",
     location: "Tustin, CA"
   },
   {
@@ -97,9 +96,8 @@ export default [
     thumbnailLarge: "426x574-tseng.jpg",
     category: "residential",
     title: "Tseng Residence",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipil pcing elit. Proin nunc leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt velit nec laoreet semper...",
-    location: "Some City, CA"
+    description: "Tseng Residence",
+    location: null
   },
   {
     type: "projects",
