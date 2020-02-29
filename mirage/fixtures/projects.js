@@ -34,7 +34,7 @@ export default [
       "1920x1080-hidden-hills-01.jpg",
       "1920x1080-hidden-hills-02.jpg"
     ],
-    imagesVertical: ["426x574-hidden-hills-01.png"],
+    imagesVertical: ["426x574-hidden-hills-01.jpg"],
     thumbnailSmall: "200x200-hidden-hills.jpg",
     thumbnailLarge: "426x574-hidden-hills.jpg",
     category: "residential",
