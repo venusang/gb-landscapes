@@ -13,18 +13,14 @@
 
 
     <div class="row-images row">
-      <div class="col-image col-sm-12"><img src="/{{rootURL}}assets/images/projects/{{@project.img1920x1080}}"></div>
-      {{#if @project.img426x574x01}}
-      <div class="col-image col col-sm-6"><img src="/{{rootURL}}assets/images/projects/{{@project.img426x574x01}}"></div>
-      {{else}}
-      <div class="col-image col col-sm-6"><img src="/{{rootURL}}assets/images/projects/{{@project.img426x574}}"></div>
-      {{/if}}
+      {{#each @project.imagesHorizontal as |image|}}
+        <div class="col-image col-sm-12"><img src="/{{rootURL}}assets/images/projects/{{image}}" alt={{@project.title}}></div>
+      {{/each}}
 
-      {{#if @project.img426x574x01}}
-      <div class="col-image col col-sm-6"><img src="/{{rootURL}}assets/images/projects/{{@project.img426x574x02}}"></div>
-      {{else}}
-      <div class="col-image col col-sm-6"><img src="/{{rootURL}}assets/images/projects/{{@project.img426x574}}"></div>
-      {{/if}}
+      {{#each @project.imagesVertical as |image|}}
+        <div class="col-image col-sm-6"><img src="/{{rootURL}}assets/images/projects/{{image}}" alt={{@project.title}}></div>
+      {{/each}}
+
     </div>
 
     <Request />

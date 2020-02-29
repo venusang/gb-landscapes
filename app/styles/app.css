@@ -1549,9 +1549,9 @@ a.brand:focus {
   margin-top: 30px;
 }
 
-.row-images .col-image:first-child {
+/* .row-images .col-image:first-child {
   margin-top: 0;
-}
+} */
 
 .row-images .col-image img {
   width: 100%;
