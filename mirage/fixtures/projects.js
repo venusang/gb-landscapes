@@ -2,7 +2,7 @@ export default [
   {
     type: "projects",
     id: "frontier-park",
-    homepageSliderImage: "1920x1080-frontier-park-01.jpg",
+    homepageSliderImage: "homepage-slider-frontier-park.jpg",
     imagesHorizontal: ["1920x1080-frontier-park-01.jpg"],
     thumbnailSmall: "200x200-frontier-park.jpg",
     thumbnailLarge: "426x574-frontier-park.jpg",
@@ -14,7 +14,7 @@ export default [
   {
     type: "projects",
     id: "deputy-ken-collier-park",
-    homepageSliderImage: "1920x1080-deputy-ken-collier-park-01.jpg",
+    homepageSliderImage: "homepage-slider-deputy-ken-collier-park.jpg",
     imagesHorizontal: [
       "1920x1080-deputy-ken-collier-park-01.jpg",
       "1920x1080-deputy-ken-collier-park-02.jpg"
@@ -29,7 +29,7 @@ export default [
   {
     type: "projects",
     id: "hidden-hills-residence",
-    homepageSliderImage: "1920x1080-hidden-hills-01.jpg",
+    homepageSliderImage: "homepage-slider-hidden-hills.jpg",
     imagesHorizontal: [
       "1920x1080-hidden-hills-01.jpg",
       "1920x1080-hidden-hills-02.jpg"
@@ -45,7 +45,7 @@ export default [
   {
     type: "projects",
     id: "beverly-hills-residence",
-    homepageSliderImage: "1920x1080-beverly-hills-01.jpg",
+    homepageSliderImage: "homepage-slider-beverly-hills.jpg",
     imagesHorizontal: [
       "1920x1080-beverly-hills-01.jpg",
       "1920x1080-beverly-hills-02b.jpg",
@@ -61,7 +61,7 @@ export default [
   {
     type: "projects",
     id: "whittier-residence",
-    homepageSliderImage: "1920x1080-whittier-01.jpg",
+    homepageSliderImage: "homepage-slider-whittier.jpg",
     imagesHorizontal: ["1920x1080-whittier-01.jpg"],
     thumbnailSmall: "200x200-whittier.jpg",
     thumbnailLarge: "426x574-whittier.jpg",
@@ -73,7 +73,7 @@ export default [
   {
     type: "projects",
     id: "heidman-elementary-school",
-    homepageSliderImage: "1920x1080-heidman-01.jpg",
+    homepageSliderImage: "homepage-slider-heidman.jpg",
     imagesHorizontal: ["1920x1080-heidman-01.jpg"],
     thumbnailSmall: "200x200-heidman.jpg",
     thumbnailLarge: "426x574-heidman.jpg",
@@ -85,7 +85,7 @@ export default [
   {
     type: "projects",
     id: "tseng-residence",
-    homepageSliderImage: "1920x1080-tseng-01.jpg",
+    homepageSliderImage: "homepage-slider-tseng.jpg",
     imagesHorizontal: [
       "1920x1080-tseng-01.jpg",
       "1920x1080-tseng-02.jpg",
@@ -102,7 +102,7 @@ export default [
   {
     type: "projects",
     id: "mccadden-apartments",
-    homepageSliderImage: null,
+    homepageSliderImage: "homepage-slider-mccadden.jpg",
     imagesVertical: ["426x574-mccadden-01.jpg", "426x574-mccadden-02.jpg"],
     thumbnailSmall: "200x200-mccadden.jpg",
     thumbnailLarge: "426x574-mccadden.jpg",

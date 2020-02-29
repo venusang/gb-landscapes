@@ -6,10 +6,14 @@ export default class HomepageComponent extends Component {
   }
   get slides() {
     let slidesArray = this.args.model.toArray();
+    for (let i = slidesArray.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * i);
+      const temp = slidesArray[i];
+      slidesArray[i] = slidesArray[j];
+      slidesArray[j] = temp;
+    }
 
-    slidesArray.filter(slide => {
-      return slide.homepageSliderImage !== "";
-    });
+    console.log("slidesArray", slidesArray);
     slidesArray.splice(4);
     return slidesArray;
   }
