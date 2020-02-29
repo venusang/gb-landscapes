@@ -2,10 +2,7 @@
   <div class="col-lg-12">
     <div class="filter-content-2">
       <ul {{filter}} class="filter js-filter">
-        <li class="active"><a href="#" class="all" data-filter="*">All</a></li>
-        <li><a href="#" data-filter=".commercial">Commercial </a></li>
-        <li><a href="#" data-filter=".residential">Residential </a></li>
-        <li><a href="#" data-filter=".municipalities">Municipalities </a></li>
+        <FilterLinks />
       </ul>
     </div>
     <div {{grid}} class="grid-items js-isotope js-grid-items">
