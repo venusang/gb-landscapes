@@ -13,7 +13,6 @@ export default class HomepageComponent extends Component {
       slidesArray[j] = temp;
     }
 
-    console.log("slidesArray", slidesArray);
     slidesArray.splice(4);
     return slidesArray;
   }
