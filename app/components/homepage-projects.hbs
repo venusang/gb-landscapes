@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="row">
-      <div {{owlcarousel}} class="project-carousel owl-carousel">
+      <div {{did-insert this.loadOwlCarousel}} class="project-carousel owl-carousel">
         {{#each @projects as |project|}}
         <Project @project={{project}} />
         {{/each}}
