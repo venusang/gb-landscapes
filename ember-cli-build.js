@@ -23,6 +23,7 @@ module.exports = function(defaults) {
   // Slider revolution
   app.import("vendor/rev-slider/jquery.themepunch.tools.min.js");
   app.import("vendor/rev-slider/jquery.themepunch.revolution.min.js");
+  // app.import("vendor/rev-slider/jquery.themepunch.revolution.js");
 
   // // Slider revolution 5x Extensions
   app.import(
