@@ -1,13 +1,9 @@
 import Component from "@glimmer/component";
 import $ from "jquery";
 import { action } from "@ember/object";
+// import { tracked } from "@glimmer/tracking";
 
 export default class HomepageSlideshowComponent extends Component {
-  @action
-  killSlider() {
-    $("#rev_slider").revkill();
-  }
-
   @action
   loadRevSlider() {
     {

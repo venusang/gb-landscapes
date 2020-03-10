@@ -9,9 +9,14 @@ module.exports = function(defaults) {
 
     "ember-bootstrap": {
       bootstrapVersion: 3,
-      importBootstrapTheme: false,
-      importBootstrapFont: false,
-      whitelist: ["bs-nav"]
+
+      // importBootstrapTheme: false,
+      importBootstrapFont: true,
+
+      // importBootstrapCSS: true,
+      // whitelist: ["bs-nav", "bs-carousel"],
+
+      importBootstrapCSS: false
     }
   });
   app.import("vendor/smoothscroll.min.js");
@@ -22,7 +27,8 @@ module.exports = function(defaults) {
 
   // Slider revolution
   app.import("vendor/rev-slider/jquery.themepunch.tools.min.js");
-  app.import("vendor/rev-slider/jquery.themepunch.revolution.min.js");
+  app.import("vendor/rev-slider/jquery.themepunch.revolution.js");
+  // app.import("vendor/rev-slider/jquery.themepunch.revolution.min.js");
 
   // // Slider revolution 5x Extensions
   app.import(
@@ -53,6 +59,7 @@ module.exports = function(defaults) {
 
   // Scripts
   // app.import("vendor/scripts.js");
-
+  // https://github.com/viljamis/ResponsiveSlides.js
+  app.import("vendor/responsiveslides.js");
   return app.toTree();
 };
