@@ -6,7 +6,7 @@ export default [
     imagesHorizontal: ["1920x1080-frontier-park-01.jpg"],
     thumbnailSmall: "200x200-frontier-park.jpg",
     thumbnailLarge: "426x574-frontier-park.jpg",
-    category: "municipalities",
+    category: "public-works",
     title: "Frontier Park",
     description: "Park design and beautification",
     location: "Tustin, CA"
@@ -21,7 +21,7 @@ export default [
     ],
     thumbnailSmall: "200x200-deputy-ken-collier-park.jpg",
     thumbnailLarge: "426x574-deputy-ken-collier-park.jpg",
-    category: "municipalities",
+    category: "public-works",
     title: "Deputy Ken Collier Park",
     description: "Park design and beautification",
     location: "Santee, CA"
