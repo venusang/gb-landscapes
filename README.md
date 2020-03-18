@@ -5,14 +5,14 @@ Example of Project object in mirage/fixtures/projects.js:
 
 type: "projects",
 id: "hidden-hills-residence",
-homepageSliderImage: "homepage-slider-hidden-hills.jpg",
+homepageSliderImage: "hiddenhills/homepage-slider-hidden-hills.jpg",
 imagesHorizontal: [
-  "1920x1080-hidden-hills-01.jpg",
-  "1920x1080-hidden-hills-02.jpg"
+  "hiddenhills/horizontal/1920x1080-hidden-hills-01.jpg",
+  "hiddenhills/horizontal/1920x1080-hidden-hills-02.jpg"
 ],
-imagesVertical: ["426x574-hidden-hills-01.jpg"],
-thumbnailSmall: "200x200-hidden-hills.jpg",
-thumbnailLarge: "426x574-hidden-hills.jpg",
+imagesVertical: ["hiddenhills/vertical/426x574-hidden-hills-01.jpg"],
+thumbnailSmall: "hiddenhills/vertical/200x200-hidden-hills.jpg",
+thumbnailLarge: "hiddenhills/426x574-hidden-hills.jpg",
 category: "residential",
 title: "Hidden Hills Residence",
 description: "Residential design and beautification",
