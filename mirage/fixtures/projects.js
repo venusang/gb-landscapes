@@ -1,11 +1,53 @@
 export default [
   {
     type: "projects",
+    id: "shaffer-park",
+    homepageSliderImage: "shafferpark/homepage-slider-shaffer-park.jpg",
+    imagesHorizontal: [
+      "shafferpark/horizontal/1920x1080-shaffer-park-01.jpg",
+      "shafferpark/horizontal/1920x1080-shaffer-park-02.jpg",
+      "shafferpark/horizontal/1920x1080-shaffer-park-03.jpg",
+      "shafferpark/horizontal/1920x1080-shaffer-park-04.jpg"
+    ],
+    thumbnailSmall: "shafferpark/200x200-shaffer-park.jpg",
+    thumbnailLarge: "shafferpark/426x574-shaffer-park.jpg",
+    category: "public-works",
+    title: "Shaffer Park",
+    description: "Park design and beautification",
+    location: "Orange, CA"
+  },
+  {
+    type: "projects",
+    id: "glen-arms-apartments",
+    homepageSliderImage: "glenarm/homepage-slider-glenarm.jpg",
+    imagesHorizontal: [
+      "glenarm/horizontal/1920x1080-glenarm-02.jpg",
+      "glenarm/horizontal/1920x1080-glenarm-03.jpg",
+      "glenarm/horizontal/1920x1080-glenarm-04.jpg",
+      "glenarm/horizontal/1920x1080-glenarm-05.jpg",
+      "glenarm/horizontal/1920x1080-glenarm-06.jpg"
+    ],
+    imagesVertical: [
+      "glenarm/vertical/426x574-glenarm-08.jpg",
+      "glenarm/vertical/426x574-glenarm-09.jpg",
+      "glenarm/vertical/426x574-glenarm-10.jpg"
+    ],
+    thumbnailSmall: "glenarm/200x200-glenarm.jpg",
+    thumbnailLarge: "glenarm/426x574-glenarm.jpg",
+    category: "commercial",
+    title: "Glenarm Apartments",
+    description: "Commercial design and beautification",
+    location: "Pasadena, CA"
+  },
+  {
+    type: "projects",
     id: "frontier-park",
-    homepageSliderImage: "homepage-slider-frontier-park.jpg",
-    imagesHorizontal: ["1920x1080-frontier-park-01.jpg"],
-    thumbnailSmall: "200x200-frontier-park.jpg",
-    thumbnailLarge: "426x574-frontier-park.jpg",
+    homepageSliderImage: "frontierpark/homepage-slider-frontier-park.jpg",
+    imagesHorizontal: [
+      "frontierpark/horizontal/1920x1080-frontier-park-01.jpg"
+    ],
+    thumbnailSmall: "frontierpark/200x200-frontier-park.jpg",
+    thumbnailLarge: "frontierpark/426x574-frontier-park.jpg",
     category: "public-works",
     title: "Frontier Park",
     description: "Park design and beautification",
@@ -14,13 +56,14 @@ export default [
   {
     type: "projects",
     id: "deputy-ken-collier-park",
-    homepageSliderImage: "homepage-slider-deputy-ken-collier-park.jpg",
+    homepageSliderImage:
+      "deputyken/homepage-slider-deputy-ken-collier-park.jpg",
     imagesHorizontal: [
-      "1920x1080-deputy-ken-collier-park-01.jpg",
-      "1920x1080-deputy-ken-collier-park-02.jpg"
+      "deputyken/horizontal/1920x1080-deputy-ken-collier-park-01.jpg",
+      "deputyken/horizontal/1920x1080-deputy-ken-collier-park-02.jpg"
     ],
-    thumbnailSmall: "200x200-deputy-ken-collier-park.jpg",
-    thumbnailLarge: "426x574-deputy-ken-collier-park.jpg",
+    thumbnailSmall: "deputyken/200x200-deputy-ken-collier-park.jpg",
+    thumbnailLarge: "deputyken/426x574-deputy-ken-collier-park.jpg",
     category: "public-works",
     title: "Deputy Ken Collier Park",
     description: "Park design and beautification",
@@ -29,14 +72,14 @@ export default [
   {
     type: "projects",
     id: "hidden-hills-residence",
-    homepageSliderImage: "homepage-slider-hidden-hills.jpg",
+    homepageSliderImage: "hiddenhills/homepage-slider-hidden-hills.jpg",
     imagesHorizontal: [
-      "1920x1080-hidden-hills-01.jpg",
-      "1920x1080-hidden-hills-02.jpg"
+      "hiddenhills/horizontal/1920x1080-hidden-hills-01.jpg",
+      "hiddenhills/horizontal/1920x1080-hidden-hills-02.jpg"
     ],
-    imagesVertical: ["426x574-hidden-hills-01.jpg"],
-    thumbnailSmall: "200x200-hidden-hills.jpg",
-    thumbnailLarge: "426x574-hidden-hills.jpg",
+    imagesVertical: ["hiddenhills/vertical/426x574-hidden-hills-01.jpg"],
+    thumbnailSmall: "hiddenhills/200x200-hidden-hills.jpg",
+    thumbnailLarge: "hiddenhills/426x574-hidden-hills.jpg",
     category: "residential",
     title: "Hidden Hills Residence",
     description: "Residential design and beautification",
@@ -45,14 +88,14 @@ export default [
   {
     type: "projects",
     id: "beverly-hills-residence",
-    homepageSliderImage: "homepage-slider-beverly-hills.jpg",
+    homepageSliderImage: "beverlyhills/homepage-slider-beverly-hills.jpg",
     imagesHorizontal: [
-      "1920x1080-beverly-hills-01.jpg",
-      "1920x1080-beverly-hills-02b.jpg",
-      "1920x1080-beverly-hills-02a.jpg"
+      "beverlyhills/horizontal/1920x1080-beverly-hills-01.jpg",
+      "beverlyhills/horizontal/1920x1080-beverly-hills-02.jpg",
+      "beverlyhills/horizontal/1920x1080-beverly-hills-03.jpg"
     ],
-    thumbnailSmall: "200x200-beverly-hills.jpg",
-    thumbnailLarge: "426x574-beverly-hills.jpg",
+    thumbnailSmall: "beverlyhills/200x200-beverly-hills.jpg",
+    thumbnailLarge: "beverlyhills/426x574-beverly-hills.jpg",
     category: "residential",
     title: "Beverly Hills Residence",
     description: "A residential project in Beverly Hills, CA",
@@ -61,10 +104,10 @@ export default [
   {
     type: "projects",
     id: "whittier-residence",
-    homepageSliderImage: "homepage-slider-whittier.jpg",
-    imagesHorizontal: ["1920x1080-whittier-01.jpg"],
-    thumbnailSmall: "200x200-whittier.jpg",
-    thumbnailLarge: "426x574-whittier.jpg",
+    homepageSliderImage: "whittier/homepage-slider-whittier.jpg",
+    imagesHorizontal: ["whittier/horizontal/1920x1080-whittier-01.jpg"],
+    thumbnailSmall: "whittier/200x200-whittier.jpg",
+    thumbnailLarge: "whittier/426x574-whittier.jpg",
     category: "residential",
     title: "Whittier Residence",
     description: "A residential project in Whittier, CA",
@@ -73,11 +116,11 @@ export default [
   {
     type: "projects",
     id: "heidman-elementary-school",
-    homepageSliderImage: "homepage-slider-heidman.jpg",
-    imagesHorizontal: ["1920x1080-heidman-01.jpg"],
-    thumbnailSmall: "200x200-heidman.jpg",
-    thumbnailLarge: "426x574-heidman.jpg",
-    category: "commercial",
+    homepageSliderImage: "heidman/homepage-slider-heidman.jpg",
+    imagesHorizontal: ["heidman/horizontal/1920x1080-heidman-01.jpg"],
+    thumbnailSmall: "heidman/200x200-heidman.jpg",
+    thumbnailLarge: "heidman/426x574-heidman.jpg",
+    category: "public-works",
     title: "Heidman Elementary School",
     description: "A public school project",
     location: "Tustin, CA"
@@ -85,15 +128,15 @@ export default [
   {
     type: "projects",
     id: "tseng-residence",
-    homepageSliderImage: "homepage-slider-tseng.jpg",
+    homepageSliderImage: "tseng/homepage-slider-tseng.jpg",
     imagesHorizontal: [
-      "1920x1080-tseng-01.jpg",
-      "1920x1080-tseng-02.jpg",
-      "1920x1080-tseng-03.jpg",
-      "1920x1080-tseng-04.jpg"
+      "tseng/horizontal/1920x1080-tseng-01.jpg",
+      "tseng/horizontal/1920x1080-tseng-02.jpg",
+      "tseng/horizontal/1920x1080-tseng-03.jpg",
+      "tseng/horizontal/1920x1080-tseng-04.jpg"
     ],
-    thumbnailSmall: "200x200-tseng.jpg",
-    thumbnailLarge: "426x574-tseng.jpg",
+    thumbnailSmall: "tseng/200x200-tseng.jpg",
+    thumbnailLarge: "tseng/426x574-tseng.jpg",
     category: "residential",
     title: "Tseng Residence",
     description: "Tseng Residence",
@@ -101,23 +144,26 @@ export default [
   },
   {
     type: "projects",
-    id: "mccadden-apartments",
-    homepageSliderImage: "homepage-slider-mccadden.jpg",
-    imagesVertical: ["426x574-mccadden-01.jpg", "426x574-mccadden-02.jpg"],
-    thumbnailSmall: "200x200-mccadden.jpg",
-    thumbnailLarge: "426x574-mccadden.jpg",
-    category: "residential",
-    title: "McCadden Apartments",
+    id: "eden-terrace",
+    homepageSliderImage: "edenterrace/homepage-slider-edenterrace.jpg",
+    imagesVertical: [
+      "edenterrace/vertical/426x574-edenterrace-01.jpg",
+      "edenterrace/vertical/426x574-edenterrace-02.jpg"
+    ],
+    thumbnailSmall: "edenterrace/200x200-edenterrace.jpg",
+    thumbnailLarge: "edenterrace/426x574-edenterrace.jpg",
+    category: "commercial",
+    title: "Eden Terrace Apartments",
     description: "Concrete paver and irrigation install",
     location: "Hollywood, CA"
   },
   {
     type: "projects",
     id: "dubois-resident",
-    homepageSliderImage: "1920x1080-dubois-01.jpg",
-    imagesHorizontal: ["1920x1080-dubois-01.jpg"],
-    thumbnailSmall: "200x200-dubois.jpg",
-    thumbnailLarge: "426x574-dubois.jpg",
+    homepageSliderImage: "dubois/homepage-slider-dubois.jpg",
+    imagesHorizontal: ["dubois/horizontal/1920x1080-dubois-01.jpg"],
+    thumbnailSmall: "dubois/200x200-dubois.jpg",
+    thumbnailLarge: "dubois/426x574-dubois.jpg",
     category: "residential",
     title: "Dubois Residence",
     description: "Dubois Residence",
