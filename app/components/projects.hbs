@@ -6,15 +6,14 @@
         <h1>We Create Luxurious Landscapes</h1>
       </div>
     </div>
-
     <div class="row">
       <div class="col-lg-12">
         <div class="filter-content-2">
           <ul {{filter}} class="filter js-filter">
             <li class="active"><a href="#" class="all" data-filter="*">All</a></li>
-            <li><a href="#" data-filter=".commercial">Commercial </a></li>
-            <li><a href="#" data-filter=".residential">Residential </a></li>
-            <li><a href="#" data-filter=".public-works">Public Works </a></li>
+            <li><a href="#" data-filter=".commercial">Commercial ({{this.commercial.length}}) </a></li>
+            <li><a href="#" data-filter=".residential">Residential ({{this.residential.length}}) </a></li>
+            <li><a href="#" data-filter=".public-works">Public Works ({{this.publicWorks.length}})</a></li>
           </ul>
         </div>
         <div {{grid}} class="grid-items js-isotope js-grid-items">

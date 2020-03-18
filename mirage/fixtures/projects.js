@@ -1,6 +1,22 @@
 export default [
   {
     type: "projects",
+    id: "lui-residence",
+    homepageSliderImage: "lui/homepage-slider-lui.jpg",
+    imagesHorizontal: [
+      "lui/horizontal/1920x1080-lui-01.jpg",
+      "lui/horizontal/1920x1080-lui-02.jpg",
+      "lui/horizontal/1920x1080-lui-03.jpg"
+    ],
+    thumbnailSmall: "lui/200x200-lui.jpg",
+    thumbnailLarge: "lui/426x574-lui.jpg",
+    category: "residential",
+    title: "Lui Residence",
+    description: "Residential design and beautification",
+    location: "Pasadena, CA"
+  },
+  {
+    type: "projects",
     id: "shaffer-park",
     homepageSliderImage: "shafferpark/homepage-slider-shaffer-park.jpg",
     imagesHorizontal: [
@@ -146,9 +162,13 @@ export default [
     type: "projects",
     id: "eden-terrace",
     homepageSliderImage: "edenterrace/homepage-slider-edenterrace.jpg",
+    imagesHorizontal: ["edenterrace/horizontal/1900x1080-edenterrace-05.jpg"],
     imagesVertical: [
       "edenterrace/vertical/426x574-edenterrace-01.jpg",
-      "edenterrace/vertical/426x574-edenterrace-02.jpg"
+      "edenterrace/vertical/426x574-edenterrace-02.jpg",
+      "edenterrace/vertical/426x574-edenterrace-03.jpg",
+      "edenterrace/vertical/426x574-edenterrace-04.jpg",
+      "edenterrace/vertical/426x574-edenterrace-06.jpg"
     ],
     thumbnailSmall: "edenterrace/200x200-edenterrace.jpg",
     thumbnailLarge: "edenterrace/426x574-edenterrace.jpg",
