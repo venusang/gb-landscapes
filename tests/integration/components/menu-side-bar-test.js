@@ -11,4 +11,10 @@ module("Integration | Component | Menu | Side Bar", function(hooks) {
     await render(hbs`<Menu::SideBar />`);
     assert.ok(menuSideBarComponent, "the sidebar is rendered");
   });
+
+  //add test to check if the menu is opened
+
+  //add test to check if it calls loadMenuSideBar - add sinon from 'sinon'
+  //let onToggle = sinon.spy()
+  //this.onToggle = onToggle;
 });
