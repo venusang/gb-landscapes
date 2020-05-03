@@ -1,26 +1,14 @@
-import { module, test } from 'qunit';
-import { setupRenderingTest } from 'ember-qunit';
-import { render } from '@ember/test-helpers';
-import { hbs } from 'ember-cli-htmlbars';
+import { module, test } from "qunit";
+import { setupRenderingTest } from "ember-qunit";
+import { render } from "@ember/test-helpers";
+import { hbs } from "ember-cli-htmlbars";
+import footerComponent from "gb-landscapes/components/footer/page-object";
 
-module('Integration | Component | footer', function(hooks) {
+module("Integration | Component | Footer", function(hooks) {
   setupRenderingTest(hooks);
 
-  test('it renders', async function(assert) {
-    // Set any properties with this.set('myProperty', 'value');
-    // Handle any actions with this.set('myAction', function(val) { ... });
-
+  test("it renders", async function(assert) {
     await render(hbs`<Footer />`);
-
-    assert.equal(this.element.textContent.trim(), '');
-
-    // Template block usage:
-    await render(hbs`
-      <Footer>
-        template block text
-      </Footer>
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
+    assert.ok(footerComponent, "the footer is rendered");
   });
 });

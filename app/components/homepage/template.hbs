@@ -1,10 +1,10 @@
-<HomepageSlideshow @slides={{this.slides}}/>
+<Homepage::Slideshow @slides={{this.slides}}/>
 <br />
-<ViewProjects />
+<Buttons::ViewProjects />
 <div class="content">
-  <HomepageAbout />
+  <Homepage::About />
   <div class="row">
-      <ViewProjects @class="view-our-projects"/>
+      <Buttons::ViewProjects @class="view-our-projects"/>
   </div>
-  <HomepageProjects @projects={{@model}}/>
+  <Homepage::Projects @projects={{@model}}/>
 </div>

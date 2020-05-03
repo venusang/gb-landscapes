@@ -23,9 +23,9 @@
 
     </div>
 
-    <Request />
+    <Buttons::Request />
     <div class="section-subtitle">View More Projects</div>
-    <ProjectsGallery {{filter}}
+    <Projects::Gallery {{filter}}
       @class="projects-gallery" @galleryCategory="residential" @projects={{this.projectModel}}
     />
   </div>

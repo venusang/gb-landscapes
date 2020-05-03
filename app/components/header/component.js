@@ -6,12 +6,6 @@ export default class HeaderComponent extends Component {
   @action
   loadNavBar() {
     const navbar = $(".js-navbar:not(.navbar-fixed)");
-    // navbar.affix({
-    //   offset: {
-    //     top: 50
-    //   }
-    // });
-
     navbar.on("affix.bs.affix", function() {
       if (!navbar.hasClass("affix")) {
         navbar.addClass("animated slideInDown");
