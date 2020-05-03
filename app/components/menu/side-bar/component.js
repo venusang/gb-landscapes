@@ -1,10 +1,15 @@
 import Component from "@glimmer/component";
 import { action } from "@ember/object";
+import { tracked } from "@glimmer/tracking";
+
 import $ from "jquery";
 
 export default class SideBarComponent extends Component {
+  @tracked
+  isOpen = false;
+
   @action
-  loadSideMenuBar() {
+  loadMenuSideBar() {
     const navbar = $(".js-navbar:not(.navbar-fixed)");
     navbar.on("affix.bs.affix", function() {
       if (!navbar.hasClass("affix")) {
@@ -31,6 +36,7 @@ export default class SideBarComponent extends Component {
       $("body")
         .removeClass("menu-is-closed")
         .addClass("menu-is-opened");
+      this.isOpen = !this.isOpen;
     });
 
     $(".close-menu, .click-capture, .menu-list li a").on("click", function() {

@@ -1,5 +1,5 @@
-<nav data-test-menu-side-bar>
-  <div class="menu">
+<nav {{did-insert this.loadMenuSideBar}} data-test-menu-side-bar>
+  <div class="menu" open={{this.isOpen}} >
     <span class="close-menu icon icon-cross2 right-boxed"></span>
     <ul class="menu-list right-boxed">
       <li class="active">
