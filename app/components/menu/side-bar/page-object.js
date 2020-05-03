@@ -1,4 +1,4 @@
-import { clickable, property } from "ember-cli-page-project";
+import { clickable, property } from "ember-cli-page-object";
 
 let sideBarComponent = ["data-test-menu-side-bar"];
 let btnSelector = ["data-test-menu-side-bar-button"];
