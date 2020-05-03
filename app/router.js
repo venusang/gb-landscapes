@@ -8,6 +8,7 @@ export default class Router extends EmberRouterScroll {
 }
 
 Router.map(function() {
+  this.route("index", { path: "/*path" });
   this.route("projects");
   this.route("project", { path: "/projects/:project_id" });
 });
